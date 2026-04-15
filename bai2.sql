@@ -27,7 +27,7 @@ WHERE name = 'Laptop Dell'
 
 --3.Xóa các sản phẩm có stock bằng 0 (nếu có)
 DELETE FROM products
-WHERE 
+
 WHERE stock = 0;
 
 --4.Liệt kê tất cả sản phẩm theo giá tăng dần
